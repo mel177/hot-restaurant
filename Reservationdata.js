@@ -39,3 +39,5 @@ var reservations_data = [
     res.send("Welcome to Hot Resteraunt!");
   });
   
+// entere module information
+module.exports=Reservationdata
