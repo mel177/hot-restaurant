@@ -1,0 +1,24 @@
+{
+  "name": "hot-restaurant",
+  "version": "1.0.0",
+  "description": "A simple front and back end application for a fictional restaurant to create and store reservations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mel177/hot-restaurant.git"
+  },
+  "author": "Melinh Mai, William Anderson, Devin North",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mel177/hot-restaurant/issues"
+  },
+  "homepage": "https://github.com/mel177/hot-restaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
