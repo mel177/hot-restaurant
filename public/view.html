@@ -30,33 +30,40 @@
 <body>
   <div class="container">
 
-    <div class="jumbotron">
+		<div class="jumbotron">
+			<h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> Hot Restaurant</h1>
+			<hr>
+			<h2 class="text-center">Current Reservations and Waiting List</h2>
+			<br>
 
+			<div class="text-center">
+				<a href="/reserve"><button type="button" class="btn btn-lg btn-danger"><span class="glyphicon glyphicon-credit-card"></span> Make Reservation</button></a>
+				<a href="/"><button type="button" class="btn btn-lg btn-default"><span class="glyphicon glyphicon-home"></span></button></a>
+			</div>
+		</div>
 
-      <h1>Hot Restaurant</h1>
-      <hr>
-      <h2>We only have 5 tables! Book your seat before they all are gone!</h2>
-      <br>
-      <h1>View</h1>
+		<div class="row">
+			<div class="col-lg-12">
 
-      <div>
-        <a href="view.html">
-          <button type="button" class="btn btn-lg btn-primary">
-            <h4>
-              <span class="glyphicon glyphicon-hourglass"></span> View Tables</h4>
-          </button>
-        </a>
-        <a href="make.html">
-          <button type="button" class="btn btn-lg btn-primary">
-            <h4>
-              <span class="glyphicon glyphicon-glass"></span>Make Reservation</h4>
-          </button>
-        </a>
+				<!-- Current Tables in Use -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">Current Reservations</h4>
+					</div>
+					<div class="panel-body" id="tableSection">
+					</div>
+				</div>
 
-      </div>
-
-    </div>
-
+				<!-- Waiting List Panel -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">Waiting List</h4>
+					</div>
+					<div class="panel-body" id="waitlistSection">
+					</div>
+				</div>
+			</div>
+		</div>
     <footer class="footer">
       <div class="container">
         <p>
