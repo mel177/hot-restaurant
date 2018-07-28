@@ -40,4 +40,4 @@ var reservations_data = [
   });
   
 // entere module information
-module.exports=Reservationdata
+module.exports=reservations_data
