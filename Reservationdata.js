@@ -34,8 +34,5 @@ var reservations_data = [
     },
 ];
   
-  // Routes
-  app.get("/", function(req, res) {
-    res.send("Welcome to Hot Resteraunt!");
-  });
-  
+// entere module information
+module.exports=reservations_data;
