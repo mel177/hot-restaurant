@@ -14,16 +14,10 @@ let reservations_data = [{thing: `blank`}];
 
 // routing
 
+app.use(express.static(`public`));
+
 app.get(`/`, (req, res) => {
-    res.sendFile(path.join(__dirname, `home.html`));
-});
-
-app.get(`/make`, (req, res) => {
-    res.sendFile(path.join(__dirname, `make.html`));
-});
-
-app.get(`/view`, (req, res) => {
-    res.sendFile()
+    res.sendFile(path.join(__dirname, `public/home.html`));
 });
 
 app.get(`/api/reservations`, (req, res) => {
